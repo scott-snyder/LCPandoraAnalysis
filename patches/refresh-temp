@@ -1,0 +1,16 @@
+Bottom: 48d7fc6052cd80faecb17f8942171f834e9de0d8
+Top:    8b5460a708f19d89090f4f0a9be59ddf056f8803
+Author: scott snyder <sss@karma>
+Date:   2020-02-12 11:43:07 -0500
+
+Refresh of gitignore
+
+---
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..b25c15b
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1 @@
++*~
