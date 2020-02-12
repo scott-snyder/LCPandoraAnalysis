@@ -1,9 +1,8 @@
 Version: 1
-Previous: e85aa8d6ab3f868b2c49706922cd3e9ae8c5b2b4
-Head: ffa130c1b0aa130da0c19c332d508dbda6491a9b
+Previous: 7804aef28cd61c10b27e9453c1b55fd7d1c0702f
+Head: 6acc898f19f19e09db70fa676bff9b389cb98562
 Applied:
   warn: 287402f7368289a486d669577e756580310602ea
-  gitignore: 196936b29ae27ed30382a82abd8b84e7cbaafc26
-  refresh-temp: ffa130c1b0aa130da0c19c332d508dbda6491a9b
+  gitignore: 6acc898f19f19e09db70fa676bff9b389cb98562
 Unapplied:
 Hidden:
