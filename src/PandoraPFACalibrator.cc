@@ -227,7 +227,10 @@ void PandoraPFACalibrator::init()
     m_recoPfoCollections.clear();
     m_recoPfoCollections.insert(m_recoPfoCollections.begin(), uniqueRecoPfoCollections.begin(), uniqueRecoPfoCollections.end());
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
     CellIDDecoder<CalorimeterHit>::setDefaultEncoding("M:3,S-1:3,I:9,J:9,K-1:6");
+#pragma GCC diagnostic pop
 
     this->printParameters();
 
@@ -548,7 +551,7 @@ void PandoraPFACalibrator::ReadPfoCollections(LCEvent *pLCEvent, const LCStrVec 
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 
-void PandoraPFACalibrator::check(LCEvent *pLCEvent)
+void PandoraPFACalibrator::check(LCEvent */*pLCEvent*/)
 {
 }
 
