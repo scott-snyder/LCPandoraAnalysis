@@ -548,7 +548,7 @@ void PandoraPFACalibrator::ReadPfoCollections(LCEvent *pLCEvent, const LCStrVec 
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 
-void PandoraPFACalibrator::check(LCEvent *pLCEvent)
+void PandoraPFACalibrator::check(LCEvent */*pLCEvent*/)
 {
 }
 
